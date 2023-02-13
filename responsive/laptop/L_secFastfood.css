@@ -1,0 +1,29 @@
+/* Laptop responsive for Section of Fast Food */
+
+.container_fastfood{
+    margin-bottom: 0;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-image: url(/img/img_sec5/pizza.jpg);
+    object-fit: cover;
+
+    display: grid;
+    /* grid-template-columns: repeat(12, 1f); */
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 
+                           1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+#fastfood_text{
+    grid-column: 8/12;
+    grid-row: 4/9;
+}
+
+#fastfood_heading{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+    word-spacing: normal;
+    color: white;
+    margin-bottom: 50px;
+}

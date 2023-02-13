@@ -1,0 +1,60 @@
+/* Hide scrollbar for Chrome, Safari and Opera */
+body::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .example {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+
+body {
+    margin: 0;
+    margin-top: 30px;
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    word-spacing: normal;
+}
+
+img{
+    border-radius: 15px;
+}
+
+.btnViewMenu{
+    margin-bottom: 10px;
+    border: 1px;
+    border-radius: 30px;
+
+    padding: 15px 40px;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    
+    background-color: #e81922;
+}
+
+.btnViewMenu > a {
+    color: white;
+    text-decoration: none;
+}
+
+.btnViewMenu:hover{
+    cursor: pointer;
+    background-color: black;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .btnViewMenu{
+        padding: 10px 20px;
+    
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 14px;
+        font-weight: bold;
+        
+        background-color: #e81922;
+    }
+
+}
